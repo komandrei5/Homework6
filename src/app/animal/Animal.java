@@ -20,10 +20,10 @@ public class Animal {
 
     public void run(int distance) {
         animalCount++;
-        System.out.print(name + " is animal age " + age + " years run " + distance + " meters");
+        System.out.print(name + " is animal age " + age + " years run " + distance + " meters ");
     }
     public void swim(int distance) {
-        System.out.println(name + " is animal age " + age + " swim " + distance + " meters");
+        System.out.println("and swim " + distance + " meters");
         System.out.println();
     }
     public static int getAnimalCount() {
